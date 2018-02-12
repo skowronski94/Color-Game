@@ -1,0 +1,17 @@
+#ifndef MOVECOLUMNSALGORITHM_H
+#define MOVECOLUMNSALGORITHM_H
+
+#include <QDebug>
+#include "ball.h"
+
+class MoveColumnsAlgorithm
+{
+    emptyColumnList;
+    filledCoumnList;
+    toFillColumnList;
+public:
+    int findEmptyColumns(Tile*** board, int const & width, int const & height);
+    MoveColumnsAlgorithm();
+};
+
+#endif // MOVECOLUMNSALGORITHM_H

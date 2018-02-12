@@ -1,0 +1,6 @@
+#include "movecolumnsalgorithm.h"
+
+MoveColumnsAlgorithm::MoveColumnsAlgorithm()
+{
+    
+}
